@@ -3,7 +3,7 @@
   "displayName": "JetBrains New UI",
   "description": "A port of the JetBrains new UI theme for IntelliJ IDEA, PyCharm, PhpStorm and WebStorm",
   "version": "1.0.0",
-  "publisher": "BaranWang",
+  "publisher": "baran-wang",
   "repository": {
     "type": "git",
     "url": "https://github.com/baranwang/jetbrains-theme"
@@ -17,7 +17,8 @@
   "scripts": {
     "prepare": "npm run build && npm run svgo",
     "build": "node ./scripts/icon.js",
-    "svgo": "svgo -f ./icons -o ./icons"
+    "svgo": "svgo -f ./icons -o ./icons",
+    "vsce": "vsce"
   },
   "contributes": {
     "themes": [
@@ -41,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "@vscode/vsce": "^2.20.0",
     "jsonc-parser": "^3.2.0",
     "svgo": "^3.0.2"
   }
