@@ -2,8 +2,8 @@
   "name": "vscode-theme-jetbrains-new-ui",
   "displayName": "JetBrains New UI",
   "description": "A port of the JetBrains new UI theme for IntelliJ IDEA, PyCharm, PhpStorm and WebStorm",
-  "version": "0.1.0",
-  "publisher": "Baran Wang",
+  "version": "0.0.0",
+  "publisher": "BaranWang",
   "engines": {
     "vscode": "^1.12.0"
   },
