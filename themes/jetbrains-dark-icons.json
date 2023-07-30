@@ -161,7 +161,7 @@
     "python": "python",
     "rust": "rust",
     "gitignore": "ignored",
-    "ignore": "ignored",
+    "ignore": "ignored"
   },
   "fileNames": {
     "package.json": "npm",

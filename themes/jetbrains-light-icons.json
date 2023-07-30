@@ -158,7 +158,10 @@
     "sql": "sql",
     "go": "go",
     "php": "php",
-    "python": "python"
+    "python": "python",
+    "rust": "rust",
+    "gitignore": "ignored",
+    "ignore": "ignored"
   },
   "fileNames": {
     "package.json": "npm",

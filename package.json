@@ -10,6 +10,8 @@
     "Themes"
   ],
   "scripts": {
+    "prepare": "npm run build && npm run svgo",
+    "build": "node ./scripts/icon.js",
     "svgo": "svgo -f ./icons -o ./icons"
   },
   "contributes": {
