@@ -1,0 +1,247 @@
+{
+  "$schema": "vscode://schemas/icon-theme",
+  "iconDefinitions": {
+    "archive": {
+      "iconPath": "../icons/archive_dark.svg"
+    },
+    "css": {
+      "iconPath": "../icons/css.svg"
+    },
+    "csv": {
+      "iconPath": "../icons/csv_dark.svg"
+    },
+    "docker": {
+      "iconPath": "../icons/docker_dark.svg"
+    },
+    "editorConfig": {
+      "iconPath": "../icons/editorConfig_dark.svg"
+    },
+    "eslint": {
+      "iconPath": "../icons/eslint.svg"
+    },
+    "excludeRoot": {
+      "iconPath": "../icons/excludeRoot_dark.svg"
+    },
+    "folder": {
+      "iconPath": "../icons/folder_dark.svg"
+    },
+    "font": {
+      "iconPath": "../icons/font_dark.svg"
+    },
+    "go": {
+      "iconPath": "../icons/go_dark.svg"
+    },
+    "html": {
+      "iconPath": "../icons/html_dark.svg"
+    },
+    "idl": {
+      "iconPath": "../icons/idl_dark.svg"
+    },
+    "ignored": {
+      "iconPath": "../icons/ignored_dark.svg"
+    },
+    "image": {
+      "iconPath": "../icons/image_dark.svg"
+    },
+    "java": {
+      "iconPath": "../icons/java_dark.svg"
+    },
+    "javaScript": {
+      "iconPath": "../icons/javaScript_dark.svg"
+    },
+    "json": {
+      "iconPath": "../icons/json_dark.svg"
+    },
+    "jsx": {
+      "iconPath": "../icons/jsx_dark.svg"
+    },
+    "less": {
+      "iconPath": "../icons/less_dark.svg"
+    },
+    "markdown": {
+      "iconPath": "../icons/markdown_dark.svg"
+    },
+    "nodejs": {
+      "iconPath": "../icons/nodejs_dark.svg"
+    },
+    "npm": {
+      "iconPath": "../icons/npm_dark.svg"
+    },
+    "php": {
+      "iconPath": "../icons/php_dark.svg"
+    },
+    "pnpm": {
+      "iconPath": "../icons/pnpm_dark.svg"
+    },
+    "properties": {
+      "iconPath": "../icons/properties_dark.svg"
+    },
+    "python": {
+      "iconPath": "../icons/python.svg"
+    },
+    "rust": {
+      "iconPath": "../icons/rust_dark.svg"
+    },
+    "scss": {
+      "iconPath": "../icons/scss.svg"
+    },
+    "shell": {
+      "iconPath": "../icons/shell_dark.svg"
+    },
+    "sourceMap": {
+      "iconPath": "../icons/sourceMap_dark.svg"
+    },
+    "sql": {
+      "iconPath": "../icons/sql_dark.svg"
+    },
+    "stylelint": {
+      "iconPath": "../icons/stylelint_dark.svg"
+    },
+    "testRoot": {
+      "iconPath": "../icons/testRoot_dark.svg"
+    },
+    "text": {
+      "iconPath": "../icons/text_dark.svg"
+    },
+    "tsx": {
+      "iconPath": "../icons/tsx_dark.svg"
+    },
+    "typescript": {
+      "iconPath": "../icons/typescript_dark.svg"
+    },
+    "vueJs": {
+      "iconPath": "../icons/vueJs.svg"
+    },
+    "xml": {
+      "iconPath": "../icons/xml_dark.svg"
+    },
+    "yaml": {
+      "iconPath": "../icons/yaml_dark.svg"
+    },
+    "yarn": {
+      "iconPath": "../icons/yarn.svg"
+    }
+  },
+  "file": "text",
+  "folder": "folder",
+  "folderNames": {
+    "node_modules": "excludeRoot",
+    "test": "testRoot",
+    "tests": "testRoot",
+    "__tests__": "testRoot"
+  },
+  "languageIds": {
+    "shellscript": "shell",
+    "javascript": "javaScript",
+    "typescript": "typescript",
+    "javascriptreact": "jsx",
+    "typescriptreact": "tsx",
+    "json": "json",
+    "css": "css",
+    "scss": "scss",
+    "less": "less",
+    "html": "html",
+    "markdown": "markdown",
+    "yaml": "yaml",
+    "xml": "xml",
+    "editorconfig": "editorConfig",
+    "dockerfile": "docker",
+    "dockercompose": "docker",
+    "properties": "properties",
+    "java": "java",
+    "groovy": "java",
+    "gradle": "java",
+    "thrift": "idl",
+    "protobuf": "idl",
+    "vue": "vueJs",
+    "svg": "image",
+    "sql": "sql",
+    "go": "go",
+    "php": "php",
+    "python": "python",
+    "rust": "rust",
+    "gitignore": "ignored",
+    "ignore": "ignored",
+  },
+  "fileNames": {
+    "package.json": "npm",
+    ".npmrc": "npm",
+    ".npmignore": "npm",
+    ".nvmrc": "nodejs",
+    ".babelrc": "json",
+    ".gitignore": "ignored",
+    "pnpm-lock.yaml": "pnpm",
+    "pnpmfile.js": "pnpm",
+    "pnpmfile.cjs": "pnpm",
+    "pnpmfile.mjs": "pnpm",
+    "pnpmfile.ts": "pnpm",
+    "pnpm-workspace.yaml": "pnpm",
+    ".eslintrc": "eslint",
+    ".eslintrc.js": "eslint",
+    ".eslintrc.yml": "eslint",
+    ".eslintrc.yaml": "eslint",
+    ".eslintrc.json": "eslint",
+    ".eslintrc.ts": "eslint",
+    ".eslintrc.cjs": "eslint",
+    ".eslintrc.mjs": "eslint",
+    ".eslintignore": "eslint",
+    ".stylelintrc": "stylelint",
+    ".stylelintrc.js": "stylelint",
+    ".stylelintrc.json": "stylelint",
+    ".stylelintrc.yaml": "stylelint",
+    ".stylelintrc.yml": "stylelint",
+    ".stylelintrc.ts": "stylelint",
+    ".stylelintrc.cjs": "stylelint",
+    ".stylelintrc.mjs": "stylelint",
+    ".stylelintignore": "stylelint",
+    ".prettierrc": "json",
+    "yarn.lock": "yarn"
+  },
+  "fileExtensions": {
+    "png": "image",
+    "jpg": "image",
+    "jpeg": "image",
+    "gif": "image",
+    "svg": "image",
+    "ico": "image",
+    "icns": "image",
+    "bmp": "image",
+    "tiff": "image",
+    "tif": "image",
+    "webp": "image",
+    "woff": "font",
+    "woff2": "font",
+    "ttf": "font",
+    "otf": "font",
+    "eot": "font",
+    "pfa": "font",
+    "pfb": "font",
+    "csv": "csv",
+    "zip": "archive",
+    "tar": "archive",
+    "gz": "archive",
+    "tgz": "archive",
+    "bzip2": "archive",
+    "xz": "archive",
+    "rar": "archive",
+    "7z": "archive",
+    "log": "text",
+    "txt": "text",
+    "md": "markdown",
+    "yaml": "yaml",
+    "yml": "yaml",
+    "xml": "xml",
+    "html": "html",
+    "htm": "html",
+    "css": "css",
+    "scss": "scss",
+    "less": "less",
+    "js": "javaScript",
+    "jsx": "jsx",
+    "ts": "typescript",
+    "tsx": "tsx",
+    "json": "json",
+    "babelrc": "json",
+    "map": "sourceMap"
+  }
+}

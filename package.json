@@ -1,0 +1,40 @@
+{
+  "name": "vscode-theme-jetbrains-new-ui",
+  "displayName": "JetBrains New UI",
+  "description": "A port of the JetBrains new UI theme for IntelliJ IDEA, PyCharm, PhpStorm and WebStorm",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "svgo": "svgo -f ./icons -o ./icons"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "JetBrains New UI Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jetbrains-dark.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "label": "JetBrains Icons Dark",
+        "id": "jetbrains-icons-dark",
+        "path": "./themes/jetbrains-dark-icons.json"
+      },
+      {
+        "label": "JetBrains Icons Light",
+        "id": "jetbrains-icons-light",
+        "path": "./themes/jetbrains-light-icons.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "jsonc-parser": "^3.2.0",
+    "svgo": "^3.0.2"
+  }
+}

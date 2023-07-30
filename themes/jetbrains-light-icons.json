@@ -1,0 +1,244 @@
+{
+  "$schema": "vscode://schemas/icon-theme",
+  "iconDefinitions": {
+    "archive": {
+      "iconPath": "../icons/archive.svg"
+    },
+    "css": {
+      "iconPath": "../icons/css.svg"
+    },
+    "csv": {
+      "iconPath": "../icons/csv.svg"
+    },
+    "docker": {
+      "iconPath": "../icons/docker.svg"
+    },
+    "editorConfig": {
+      "iconPath": "../icons/editorConfig.svg"
+    },
+    "eslint": {
+      "iconPath": "../icons/eslint.svg"
+    },
+    "excludeRoot": {
+      "iconPath": "../icons/excludeRoot.svg"
+    },
+    "folder": {
+      "iconPath": "../icons/folder.svg"
+    },
+    "font": {
+      "iconPath": "../icons/font.svg"
+    },
+    "go": {
+      "iconPath": "../icons/go.svg"
+    },
+    "html": {
+      "iconPath": "../icons/html.svg"
+    },
+    "idl": {
+      "iconPath": "../icons/idl.svg"
+    },
+    "ignored": {
+      "iconPath": "../icons/ignored.svg"
+    },
+    "image": {
+      "iconPath": "../icons/image.svg"
+    },
+    "java": {
+      "iconPath": "../icons/java.svg"
+    },
+    "javaScript": {
+      "iconPath": "../icons/javaScript.svg"
+    },
+    "json": {
+      "iconPath": "../icons/json.svg"
+    },
+    "jsx": {
+      "iconPath": "../icons/jsx.svg"
+    },
+    "less": {
+      "iconPath": "../icons/less.svg"
+    },
+    "markdown": {
+      "iconPath": "../icons/markdown.svg"
+    },
+    "nodejs": {
+      "iconPath": "../icons/nodejs.svg"
+    },
+    "npm": {
+      "iconPath": "../icons/npm.svg"
+    },
+    "php": {
+      "iconPath": "../icons/php.svg"
+    },
+    "pnpm": {
+      "iconPath": "../icons/pnpm.svg"
+    },
+    "properties": {
+      "iconPath": "../icons/properties.svg"
+    },
+    "python": {
+      "iconPath": "../icons/python.svg"
+    },
+    "rust": {
+      "iconPath": "../icons/rust.svg"
+    },
+    "scss": {
+      "iconPath": "../icons/scss.svg"
+    },
+    "shell": {
+      "iconPath": "../icons/shell.svg"
+    },
+    "sourceMap": {
+      "iconPath": "../icons/sourceMap.svg"
+    },
+    "sql": {
+      "iconPath": "../icons/sql.svg"
+    },
+    "stylelint": {
+      "iconPath": "../icons/stylelint.svg"
+    },
+    "testRoot": {
+      "iconPath": "../icons/testRoot.svg"
+    },
+    "text": {
+      "iconPath": "../icons/text.svg"
+    },
+    "tsx": {
+      "iconPath": "../icons/tsx.svg"
+    },
+    "typescript": {
+      "iconPath": "../icons/typescript.svg"
+    },
+    "vueJs": {
+      "iconPath": "../icons/vueJs.svg"
+    },
+    "xml": {
+      "iconPath": "../icons/xml.svg"
+    },
+    "yaml": {
+      "iconPath": "../icons/yaml.svg"
+    },
+    "yarn": {
+      "iconPath": "../icons/yarn.svg"
+    }
+  },
+  "file": "text",
+  "folder": "folder",
+  "folderNames": {
+    "node_modules": "excludeRoot",
+    "test": "testRoot",
+    "tests": "testRoot",
+    "__tests__": "testRoot"
+  },
+  "languageIds": {
+    "shellscript": "shell",
+    "javascript": "javaScript",
+    "typescript": "typescript",
+    "javascriptreact": "jsx",
+    "typescriptreact": "tsx",
+    "json": "json",
+    "css": "css",
+    "scss": "scss",
+    "less": "less",
+    "html": "html",
+    "markdown": "markdown",
+    "yaml": "yaml",
+    "xml": "xml",
+    "editorconfig": "editorConfig",
+    "dockerfile": "docker",
+    "dockercompose": "docker",
+    "properties": "properties",
+    "java": "java",
+    "groovy": "java",
+    "gradle": "java",
+    "thrift": "idl",
+    "protobuf": "idl",
+    "vue": "vueJs",
+    "svg": "image",
+    "sql": "sql",
+    "go": "go",
+    "php": "php",
+    "python": "python"
+  },
+  "fileNames": {
+    "package.json": "npm",
+    ".npmrc": "npm",
+    ".npmignore": "npm",
+    ".nvmrc": "nodejs",
+    ".babelrc": "json",
+    ".gitignore": "ignored",
+    "pnpm-lock.yaml": "pnpm",
+    "pnpmfile.js": "pnpm",
+    "pnpmfile.cjs": "pnpm",
+    "pnpmfile.mjs": "pnpm",
+    "pnpmfile.ts": "pnpm",
+    "pnpm-workspace.yaml": "pnpm",
+    ".eslintrc": "eslint",
+    ".eslintrc.js": "eslint",
+    ".eslintrc.yml": "eslint",
+    ".eslintrc.yaml": "eslint",
+    ".eslintrc.json": "eslint",
+    ".eslintrc.ts": "eslint",
+    ".eslintrc.cjs": "eslint",
+    ".eslintrc.mjs": "eslint",
+    ".eslintignore": "eslint",
+    ".stylelintrc": "stylelint",
+    ".stylelintrc.js": "stylelint",
+    ".stylelintrc.json": "stylelint",
+    ".stylelintrc.yaml": "stylelint",
+    ".stylelintrc.yml": "stylelint",
+    ".stylelintrc.ts": "stylelint",
+    ".stylelintrc.cjs": "stylelint",
+    ".stylelintrc.mjs": "stylelint",
+    ".stylelintignore": "stylelint",
+    ".prettierrc": "json",
+    "yarn.lock": "yarn"
+  },
+  "fileExtensions": {
+    "png": "image",
+    "jpg": "image",
+    "jpeg": "image",
+    "gif": "image",
+    "svg": "image",
+    "ico": "image",
+    "icns": "image",
+    "bmp": "image",
+    "tiff": "image",
+    "tif": "image",
+    "webp": "image",
+    "woff": "font",
+    "woff2": "font",
+    "ttf": "font",
+    "otf": "font",
+    "eot": "font",
+    "pfa": "font",
+    "pfb": "font",
+    "csv": "csv",
+    "zip": "archive",
+    "tar": "archive",
+    "gz": "archive",
+    "tgz": "archive",
+    "bzip2": "archive",
+    "xz": "archive",
+    "rar": "archive",
+    "7z": "archive",
+    "log": "text",
+    "txt": "text",
+    "md": "markdown",
+    "yaml": "yaml",
+    "yml": "yaml",
+    "xml": "xml",
+    "html": "html",
+    "htm": "html",
+    "css": "css",
+    "scss": "scss",
+    "less": "less",
+    "js": "javaScript",
+    "jsx": "jsx",
+    "ts": "typescript",
+    "tsx": "tsx",
+    "json": "json",
+    "babelrc": "json",
+    "map": "sourceMap"
+  }
+}
