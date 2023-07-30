@@ -4,6 +4,10 @@
   "description": "A port of the JetBrains new UI theme for IntelliJ IDEA, PyCharm, PhpStorm and WebStorm",
   "version": "0.1.0",
   "publisher": "BaranWang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baranwang/jetbrains-theme"
+  },
   "engines": {
     "vscode": "^1.12.0"
   },
