@@ -3,6 +3,7 @@
   "displayName": "JetBrains New UI",
   "description": "A port of the JetBrains new UI theme for IntelliJ IDEA, PyCharm, PhpStorm and WebStorm",
   "version": "0.0.1",
+  "publisher": "baran.wang",
   "engines": {
     "vscode": "^1.12.0"
   },
