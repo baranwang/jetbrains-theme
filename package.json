@@ -30,20 +30,20 @@
   "contributes": {
     "themes": [
       {
-        "label": "JetBrains New UI Dark",
+        "label": "Int UI Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/jetbrains-dark.json"
       }
     ],
     "iconThemes": [
       {
-        "label": "JetBrains Icons Dark",
-        "id": "jetbrains-icons-dark",
+        "label": "Int UI Icons Dark",
+        "id": "int-ui-icons-dark",
         "path": "./themes/jetbrains-dark-icons.json"
       },
       {
-        "label": "JetBrains Icons Light",
-        "id": "jetbrains-icons-light",
+        "label": "Int UI Icons Light",
+        "id": "int-ui-icons-light",
         "path": "./themes/jetbrains-light-icons.json"
       }
     ]

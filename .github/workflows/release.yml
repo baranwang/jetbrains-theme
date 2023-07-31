@@ -1,19 +1,26 @@
-name: Publish
+name: Release
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - main
 
 jobs:
-  publish:
+  release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with: 
+          fetch-depth: 0
+          persist-credentials: false
+
       - uses: actions/setup-node@v3
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
+
       - run: npm ci
+
       - run: npm run publish
         env:
-          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          VSCE_PAT: ${{ secrets.VS_MARKETPLACE_TOKEN }}

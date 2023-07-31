@@ -135,7 +135,7 @@
     "gitlens.graphLane4Color": "#7A4343",
     "gitlens.graphLane5Color": "#825845",
     "gitlens.graphLane6Color": "#583D7A",
-    "gitlens.graphLane7Color": "#20635D",
+    "gitlens.graphLane7Color": "#20635D"
   },
   "tokenColors": [
     {
@@ -171,6 +171,7 @@
         "variable.language.this",
         "entity.name.command",
         "meta.structure.dictionary.value constant.language.json",
+        "entity.name.tag.yaml"
       ],
       "settings": {
         "foreground": "#D69A6B"
@@ -212,7 +213,17 @@
       }
     },
     {
-      "scope": ["entity.other.attribute-name", "meta.tag.attributes", "variable.other.object", "entity.name.type", "support.type.property-name", "constant.language.import-export-all", "string variable"],
+      "scope": [
+        "entity.other.attribute-name",
+        "meta.tag.attributes",
+        "variable.other.object",
+        "entity.name.type",
+        "support.type.property-name",
+        "constant.language.import-export-all",
+        "string variable",
+        "source.yaml string.unquoted",
+        "source.yaml constant.language.boolean"
+      ],
       "settings": {
         "foreground": "#BDC0C9"
       }
@@ -225,7 +236,7 @@
       }
     },
     {
-      "scope": ["storage.type.annotation", "punctuation.definition.entity", "variable.interpolation", "meta.property-list", "entity.other.attribute-name.class",  "meta.decorator entity.name.function"],
+      "scope": ["storage.type.annotation", "punctuation.definition.entity", "variable.interpolation", "meta.property-list", "entity.other.attribute-name.class", "meta.decorator entity.name.function"],
       "settings": {
         "foreground": "#B3AE60"
       }
@@ -235,6 +246,6 @@
       "settings": {
         "foreground": "#70AEFF"
       }
-    },
+    }
   ]
 }
