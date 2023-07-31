@@ -171,7 +171,8 @@
         "variable.language.this",
         "entity.name.command",
         "meta.structure.dictionary.value constant.language.json",
-        "entity.name.tag.yaml"
+        "entity.name.tag.yaml",
+        "constant.character.escape"
       ],
       "settings": {
         "foreground": "#D69A6B"
