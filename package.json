@@ -24,7 +24,8 @@
     "prepare": "npm run build && npm run svgo",
     "build": "node ./scripts/icon.js",
     "svgo": "svgo -f ./icons -o ./icons",
-    "vsce": "vsce"
+    "prepublish": "vsce package",
+    "publish": "vsce publish"
   },
   "contributes": {
     "themes": [
