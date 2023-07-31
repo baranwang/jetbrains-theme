@@ -1,6 +1,6 @@
 {
   "name": "vscode-theme-jetbrains-new-ui",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "baran-wang",
   "engines": {
     "vscode": "^1.12.0"
