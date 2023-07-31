@@ -1,19 +1,25 @@
 {
   "name": "vscode-theme-jetbrains-new-ui",
-  "displayName": "JetBrains New UI",
-  "description": "A port of the JetBrains new UI theme for IntelliJ IDEA, PyCharm, PhpStorm and WebStorm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "baran-wang",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "license": "MIT",
+  "displayName": "Int UI Theme",
+  "description": "Introducing a vibrant and enriched theme inspired by JetBrains' new Int UI. Packed with an array of vivid colors and an extensive collection of icons, it transforms and enhances your user interface.",
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#1E1F22",
+    "theme": "dark"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/baranwang/jetbrains-theme"
   },
-  "engines": {
-    "vscode": "^1.12.0"
-  },
-  "categories": [
-    "Themes"
-  ],
   "scripts": {
     "prepare": "npm run build && npm run svgo",
     "build": "node ./scripts/icon.js",
