@@ -1,5 +1,5 @@
 {
-  "name": "vscode-theme-int-ui",
+  "name": "vscode-theme-jetbrains-new-ui",
   "version": "1.4.0",
   "publisher": "baran-wang",
   "engines": {
@@ -24,7 +24,8 @@
     "build": "node ./scripts/icon.js",
     "svgo": "svgo -f ./icons -o ./icons",
     "prepublish": "vsce package",
-    "publish": "vsce publish"
+    "publish": "vsce publish",
+    "postversion": "git push --follow-tags"
   },
   "contributes": {
     "themes": [
