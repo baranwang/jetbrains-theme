@@ -1,12 +1,12 @@
 {
-  "name": "vscode-theme-jetbrains-new-ui",
+  "name": "vscode-theme-int-ui",
   "version": "1.3.0",
   "publisher": "baran-wang",
   "engines": {
     "vscode": "^1.12.0"
   },
   "displayName": "Int UI Theme",
-  "description": "Introducing a vibrant and enriched theme inspired by JetBrains' new Int UI. Packed with an array of vivid colors and an extensive collection of icons, it transforms and enhances your user interface.",
+  "description": "Introducing a vibrant and enriched theme inspired by JetBrains' new UI - Int UI. Packed with an array of vivid colors and an extensive collection of icons, it transforms and enhances your user interface.",
   "categories": [
     "Themes"
   ],
@@ -31,19 +31,19 @@
       {
         "label": "Int UI Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/jetbrains-dark.json"
+        "path": "./themes/int-ui-dark.json"
       }
     ],
     "iconThemes": [
       {
         "label": "Int UI Icons Dark",
         "id": "int-ui-icons-dark",
-        "path": "./themes/jetbrains-dark-icons.json"
+        "path": "./themes/int-ui-dark-icons.json"
       },
       {
         "label": "Int UI Icons Light",
         "id": "int-ui-icons-light",
-        "path": "./themes/jetbrains-light-icons.json"
+        "path": "./themes/int-ui-light-icons.json"
       }
     ]
   },

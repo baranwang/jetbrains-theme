@@ -32,8 +32,8 @@ function defineIcons(type) {
   }, {});
 }
 
-const darkIconsConfigPath = path.join(__dirname, '../themes/jetbrains-dark-icons.json');
-const lightIconsConfigPath = path.join(__dirname, '../themes/jetbrains-light-icons.json');
+const darkIconsConfigPath = path.join(__dirname, '../themes/int-ui-dark-icons.json');
+const lightIconsConfigPath = path.join(__dirname, '../themes/int-ui-light-icons.json');
 
 const darkIconsConfig = parse(fs.readFileSync(darkIconsConfigPath).toString());
 const lightIconsConfig = { ...darkIconsConfig };
