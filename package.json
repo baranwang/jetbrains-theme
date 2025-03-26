@@ -46,11 +46,18 @@
         "id": "int-ui-icons-light",
         "path": "./themes/int-ui-light-icons.json"
       }
+    ],
+    "productIconThemes": [
+      {
+        "label": "Int UI Product Icons Dark",
+        "id": "int-ui-product-icons-dark",
+        "path": "./themes/int-ui-dark-product-icons.json"
+      }
     ]
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.20.0",
+    "@vscode/vsce": "^3.3.0",
     "jsonc-parser": "^3.2.0",
-    "svgo": "^3.0.2"
+    "svgo": "^3.3.2"
   }
 }

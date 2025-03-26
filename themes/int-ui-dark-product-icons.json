@@ -1,0 +1,72 @@
+{
+  "$schema": "vscode://schemas/product-icon-theme",
+  "fonts": [
+    {
+      "src": [
+        {
+          "path": "../fonts/icomoon.woff",
+          "format": "woff"
+        },
+        {
+          "format": "truetype",
+          "path": "../fonts/icomoon.ttf"
+        },
+        {
+          "format": "svg",
+          "path": "../fonts/icomoon.svg"
+        },
+        {
+          "format": "embedded-opentype",
+          "path": "../fonts/icomoon.eot"
+        }
+      ],
+      "id": "int-ui-dark-product-icons",
+      "style": "normal",
+      "weight": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "explorer-view-icon": {
+      "fontCharacter": "\\e901"
+    },
+    "search": {
+      "fontCharacter": "\\e900"
+    },
+    "source-control-view-icon": {
+      "fontCharacter": "\\e905"
+    },
+    "git-branch": {
+      "fontCharacter": "\\e905"
+    },
+    "bug": {
+      "fontCharacter": "\\e907"
+    },
+    "run-view-icon": {
+      "fontCharacter": "\\e902"
+    },
+    "extensions-view-icon": {
+      "fontCharacter": "\\e903"
+    },
+    "settings-view-bar-icon": {
+      "fontCharacter": "\\e904"
+    },
+    "debug-stop": {
+      "fontCharacter": "\\e906"
+    },
+    "debug-restart": {
+      "fontCharacter": "\\e90a"
+    },
+    "debug-step-out": {
+      "fontCharacter": "\\e90c"
+    },
+    "debug-step-into": {
+      "fontCharacter": "\\e90b"
+    },
+    "debug-pause": {
+      "fontCharacter": "\\e909"
+    },
+    "debug-continue": {
+      "fontCharacter": "\\e908"
+    }
+  }
+}
