@@ -13,9 +13,6 @@
     "docker": {
       "iconPath": "../icons/docker.svg"
     },
-    "edenx": {
-      "iconPath": "../icons/edenx.png"
-    },
     "editorConfig": {
       "iconPath": "../icons/editorConfig.svg"
     },
@@ -196,16 +193,7 @@
     ".stylelintrc.mjs": "stylelint",
     ".stylelintignore": "stylelint",
     ".prettierrc": "json",
-    "yarn.lock": "yarn",
-    "edenx.config.js": "edenx",
-    "edenx.config.ts": "edenx",
-    "edenx.config.mjs": "edenx",
-    "edenx.config.local.js": "edenx",
-    "edenx.config.local.ts": "edenx",
-    "edenx.config.local.mjs": "edenx",
-    "edenx.server-runtime.config.js": "edenx",
-    "edenx.server-runtime.config.ts": "edenx",
-    "edenx.server-runtime.config.mjs": "edenx"
+    "yarn.lock": "yarn"
   },
   "fileExtensions": {
     "png": "image",

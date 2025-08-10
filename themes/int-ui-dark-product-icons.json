@@ -26,11 +26,14 @@
     }
   ],
   "iconDefinitions": {
-    "explorer-view-icon": {
-      "fontCharacter": "\\e901"
-    },
-    "search": {
+    "accounts-view-bar-icon": {
       "fontCharacter": "\\e900"
+    },
+    "explorer-view-icon": {
+      "fontCharacter": "\\e902"
+    },
+    "search-view-icon": {
+      "fontCharacter": "\\e901"
     },
     "source-control-view-icon": {
       "fontCharacter": "\\e905"
@@ -39,34 +42,37 @@
       "fontCharacter": "\\e905"
     },
     "bug": {
-      "fontCharacter": "\\e907"
+      "fontCharacter": "\\e908"
     },
     "run-view-icon": {
-      "fontCharacter": "\\e902"
+      "fontCharacter": "\\e903"
     },
     "extensions-view-icon": {
-      "fontCharacter": "\\e903"
+      "fontCharacter": "\\e906"
     },
     "settings-view-bar-icon": {
       "fontCharacter": "\\e904"
     },
     "debug-stop": {
-      "fontCharacter": "\\e906"
+      "fontCharacter": "\\e907"
     },
     "debug-restart": {
-      "fontCharacter": "\\e90a"
-    },
-    "debug-step-out": {
-      "fontCharacter": "\\e90c"
-    },
-    "debug-step-into": {
       "fontCharacter": "\\e90b"
     },
+    "debug-step-out": {
+      "fontCharacter": "\\e90d"
+    },
+    "debug-step-into": {
+      "fontCharacter": "\\e90c"
+    },
+    "debug-step-over": {
+      "fontCharacter": "\\e90e"
+    },
     "debug-pause": {
-      "fontCharacter": "\\e909"
+      "fontCharacter": "\\e90a"
     },
     "debug-continue": {
-      "fontCharacter": "\\e908"
+      "fontCharacter": "\\e909"
     }
   }
 }

@@ -13,9 +13,6 @@
     "docker": {
       "iconPath": "../icons/docker_dark.svg"
     },
-    "edenx": {
-      "iconPath": "../icons/edenx.png"
-    },
     "editorConfig": {
       "iconPath": "../icons/editorConfig_dark.svg"
     },
@@ -55,8 +52,14 @@
     "json": {
       "iconPath": "../icons/json_dark.svg"
     },
+    "jsTest": {
+      "iconPath": "../icons/jsTest_dark.svg"
+    },
     "jsx": {
       "iconPath": "../icons/jsx_dark.svg"
+    },
+    "jsxTest": {
+      "iconPath": "../icons/jsxTest_dark.svg"
     },
     "less": {
       "iconPath": "../icons/less_dark.svg"
@@ -106,8 +109,14 @@
     "text": {
       "iconPath": "../icons/text_dark.svg"
     },
+    "tsTest": {
+      "iconPath": "../icons/tsTest_dark.svg"
+    },
     "tsx": {
       "iconPath": "../icons/tsx_dark.svg"
+    },
+    "tsxTest": {
+      "iconPath": "../icons/tsxTest_dark.svg"
     },
     "typescript": {
       "iconPath": "../icons/typescript_dark.svg"
@@ -131,7 +140,9 @@
     "node_modules": "excludeRoot",
     "test": "testRoot",
     "tests": "testRoot",
-    "__tests__": "testRoot"
+    "__tests__": "testRoot",
+    "spec": "testRoot",
+    "specs": "testRoot"
   },
   "languageIds": {
     "shellscript": "shell",
@@ -197,15 +208,14 @@
     ".stylelintignore": "stylelint",
     ".prettierrc": "json",
     "yarn.lock": "yarn",
-    "edenx.config.js": "edenx",
-    "edenx.config.ts": "edenx",
-    "edenx.config.mjs": "edenx",
-    "edenx.config.local.js": "edenx",
-    "edenx.config.local.ts": "edenx",
-    "edenx.config.local.mjs": "edenx",
-    "edenx.server-runtime.config.js": "edenx",
-    "edenx.server-runtime.config.ts": "edenx",
-    "edenx.server-runtime.config.mjs": "edenx"
+    ".test.ts": "tsTest",
+    ".spec.ts": "tsTest",
+    ".test.tsx": "tsxTest",
+    ".spec.tsx": "tsxTest",
+    ".test.jsx": "jsxTest",
+    ".spec.jsx": "jsxTest",
+    ".test.js": "jsTest",
+    ".spec.js": "jsTest"
   },
   "fileExtensions": {
     "png": "image",
