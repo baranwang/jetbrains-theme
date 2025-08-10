@@ -49,11 +49,11 @@
     "javaScript": {
       "iconPath": "../icons/javaScript_dark.svg"
     },
-    "json": {
-      "iconPath": "../icons/json_dark.svg"
-    },
     "jsTest": {
       "iconPath": "../icons/jsTest_dark.svg"
+    },
+    "json": {
+      "iconPath": "../icons/json_dark.svg"
     },
     "jsx": {
       "iconPath": "../icons/jsx_dark.svg"

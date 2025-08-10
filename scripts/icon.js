@@ -12,6 +12,9 @@ const icons = {
 const iconFiles = fs.readdirSync(iconPath);
 
 iconFiles.forEach((file) => {
+  if (!file.endsWith('.svg')) {
+    return;
+  }
   const name = path.basename(file, path.extname(file));
   if (name.endsWith('_dark')) {
     icons.dark[name.replace('_dark', '')] = file;

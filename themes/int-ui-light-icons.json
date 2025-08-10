@@ -49,11 +49,17 @@
     "javaScript": {
       "iconPath": "../icons/javaScript.svg"
     },
+    "jsTest": {
+      "iconPath": "../icons/jsTest.svg"
+    },
     "json": {
       "iconPath": "../icons/json.svg"
     },
     "jsx": {
       "iconPath": "../icons/jsx.svg"
+    },
+    "jsxTest": {
+      "iconPath": "../icons/jsxTest.svg"
     },
     "less": {
       "iconPath": "../icons/less.svg"
@@ -103,8 +109,14 @@
     "text": {
       "iconPath": "../icons/text.svg"
     },
+    "tsTest": {
+      "iconPath": "../icons/tsTest.svg"
+    },
     "tsx": {
       "iconPath": "../icons/tsx.svg"
+    },
+    "tsxTest": {
+      "iconPath": "../icons/tsxTest.svg"
     },
     "typescript": {
       "iconPath": "../icons/typescript.svg"
@@ -128,7 +140,9 @@
     "node_modules": "excludeRoot",
     "test": "testRoot",
     "tests": "testRoot",
-    "__tests__": "testRoot"
+    "__tests__": "testRoot",
+    "spec": "testRoot",
+    "specs": "testRoot"
   },
   "languageIds": {
     "shellscript": "shell",
@@ -193,7 +207,15 @@
     ".stylelintrc.mjs": "stylelint",
     ".stylelintignore": "stylelint",
     ".prettierrc": "json",
-    "yarn.lock": "yarn"
+    "yarn.lock": "yarn",
+    ".test.ts": "tsTest",
+    ".spec.ts": "tsTest",
+    ".test.tsx": "tsxTest",
+    ".spec.tsx": "tsxTest",
+    ".test.jsx": "jsxTest",
+    ".spec.jsx": "jsxTest",
+    ".test.js": "jsTest",
+    ".spec.js": "jsTest"
   },
   "fileExtensions": {
     "png": "image",
