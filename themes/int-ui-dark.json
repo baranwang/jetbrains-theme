@@ -249,7 +249,11 @@
     {
       "name": "局部变量",
       "scope": [
-        "meta.definition.variable"
+        "meta.definition.variable",
+        "variable.other.constant.js",
+        "variable.other.constant.ts",
+        "variable.other.constant.tsx",
+        "string.template variable.other.readwrite",
       ],
       "settings": {
         "foreground": "#A9B7C6"
@@ -259,13 +263,10 @@
       "name": "全局变量",
       "scope": [
         "entity.other.inherited-class",
-        "variable.other.constant.js",
-        "variable.other.constant.ts",
-        "variable.other.constant.tsx",
         "variable.other.object.js",
         "variable.other.object.ts",
         "variable.other.object.tsx",
-        "entity.name.type.module.tsx",
+        "entity.name.type.module.tsx"
       ],
       "settings": {
         "foreground": "#C77DBA"
@@ -328,16 +329,10 @@
     },
     {
       "scope": [
-        "meta.type.parameters"
-      ],
-      "settings": {
-        "foreground": "#BCBEC4"
-      }
-    },
-    {
-      "name": "分号",
-      "scope": [
-        "punctuation.terminator.rule"
+        "meta.type.parameters",
+        "punctuation.terminator.rule",
+        "string.template punctuation.definition.template-expression.begin",
+        "string.template punctuation.definition.template-expression.end"
       ],
       "settings": {
         "foreground": "#BCBEC4"
