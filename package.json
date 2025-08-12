@@ -6,7 +6,7 @@
     "vscode": "^1.0.0"
   },
   "displayName": "Int UI Theme",
-  "description": "Introducing a vibrant and enriched theme inspired by JetBrains' new UI - Int UI. Packed with an array of vivid colors and an extensive collection of icons, it transforms and enhances your user interface.",
+  "description": "🎨 Experience JetBrains' modern UI design in Visual Studio Code",
   "categories": [
     "Themes"
   ],
@@ -49,9 +49,9 @@
     ],
     "productIconThemes": [
       {
-        "label": "Int UI Product Icons Dark",
-        "id": "int-ui-product-icons-dark",
-        "path": "./themes/int-ui-dark-product-icons.json"
+        "label": "Int UI Product Icons",
+        "id": "int-ui-product-icons",
+        "path": "./themes/int-ui-product-icons.json"
       }
     ]
   },
