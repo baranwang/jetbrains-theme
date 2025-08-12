@@ -253,6 +253,7 @@
         "variable.other.constant.js",
         "variable.other.constant.ts",
         "variable.other.constant.tsx",
+        "variable.other.constant.object",
         "string.template variable.other.readwrite",
       ],
       "settings": {
@@ -281,6 +282,14 @@
       ],
       "settings": {
         "foreground": "#C77DBB"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#56A8F5"
       }
     },
     {
@@ -521,14 +530,6 @@
       ],
       "settings": {
         "foreground": "#C57633"
-      }
-    },
-    {
-      "scope": [
-        "entity.name.function.shell"
-      ],
-      "settings": {
-        "foreground": "#56A8F5"
       }
     },
     // sql

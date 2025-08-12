@@ -16,6 +16,9 @@
     "editorConfig": {
       "iconPath": "../icons/editorConfig.svg"
     },
+    "ejs": {
+      "iconPath": "../icons/ejs.svg"
+    },
     "eslint": {
       "iconPath": "../icons/eslint.svg"
     },
@@ -30,6 +33,9 @@
     },
     "go": {
       "iconPath": "../icons/go.svg"
+    },
+    "handlebars": {
+      "iconPath": "../icons/handlebars.svg"
     },
     "html": {
       "iconPath": "../icons/html.svg"
@@ -73,11 +79,17 @@
     "npm": {
       "iconPath": "../icons/npm.svg"
     },
+    "packageJson": {
+      "iconPath": "../icons/packageJson.svg"
+    },
     "php": {
       "iconPath": "../icons/php.svg"
     },
     "pnpm": {
       "iconPath": "../icons/pnpm.svg"
+    },
+    "pnpmLock": {
+      "iconPath": "../icons/pnpmLock.svg"
     },
     "properties": {
       "iconPath": "../icons/properties.svg"
@@ -109,6 +121,9 @@
     "text": {
       "iconPath": "../icons/text.svg"
     },
+    "tsConfig": {
+      "iconPath": "../icons/tsConfig.svg"
+    },
     "tsTest": {
       "iconPath": "../icons/tsTest.svg"
     },
@@ -132,6 +147,9 @@
     },
     "yarn": {
       "iconPath": "../icons/yarn.svg"
+    },
+    "yarnLock": {
+      "iconPath": "../icons/yarnLock.svg"
     }
   },
   "file": "text",
@@ -155,6 +173,7 @@
     "scss": "scss",
     "less": "less",
     "html": "html",
+    "ejs": "ejs",
     "markdown": "markdown",
     "yaml": "yaml",
     "xml": "xml",
@@ -171,18 +190,24 @@
     "svg": "image",
     "sql": "sql",
     "go": "go",
+    "handlebars": "handlebars",
     "php": "php",
     "python": "python",
     "rust": "rust",
     "gitignore": "ignored",
-    "ignore": "ignored"
+    "ignore": "ignored",
+    "tsTest": "tsTest",
+    "tsxTest": "tsxTest",
+    "jsxTest": "jsxTest",
+    "jsTest": "jsTest"
   },
   "fileNames": {
     ".npmrc": "npm",
     ".nvmrc": "nodejs",
     ".babelrc": "json",
     ".gitignore": "ignored",
-    "pnpm-lock.yaml": "pnpm",
+    "package.json": "packageJson",
+    "pnpm-lock.yaml": "pnpmLock",
     "pnpmfile.js": "pnpm",
     "pnpmfile.cjs": "pnpm",
     "pnpmfile.mjs": "pnpm",
@@ -207,15 +232,8 @@
     ".stylelintrc.mjs": "stylelint",
     ".stylelintignore": "stylelint",
     ".prettierrc": "json",
-    "yarn.lock": "yarn",
-    ".test.ts": "tsTest",
-    ".spec.ts": "tsTest",
-    ".test.tsx": "tsxTest",
-    ".spec.tsx": "tsxTest",
-    ".test.jsx": "jsxTest",
-    ".spec.jsx": "jsxTest",
-    ".test.js": "jsTest",
-    ".spec.js": "jsTest"
+    "yarn.lock": "yarnLock",
+    "tsconfig.json": "tsConfig"
   },
   "fileExtensions": {
     "png": "image",
@@ -262,6 +280,14 @@
     "tsx": "tsx",
     "json": "json",
     "babelrc": "json",
-    "map": "sourceMap"
+    "map": "sourceMap",
+    "test.ts": "tsTest",
+    "spec.ts": "tsTest",
+    "test.tsx": "tsxTest",
+    "spec.tsx": "tsxTest",
+    "test.jsx": "jsxTest",
+    "spec.jsx": "jsxTest",
+    "test.js": "jsTest",
+    "spec.js": "jsTest"
   }
 }

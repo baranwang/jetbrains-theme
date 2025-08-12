@@ -16,8 +16,11 @@
     "editorConfig": {
       "iconPath": "../icons/editorConfig_dark.svg"
     },
+    "ejs": {
+      "iconPath": "../icons/ejs_dark.svg"
+    },
     "eslint": {
-      "iconPath": "../icons/eslint.svg"
+      "iconPath": "../icons/eslint_dark.svg"
     },
     "excludeRoot": {
       "iconPath": "../icons/excludeRoot_dark.svg"
@@ -30,6 +33,9 @@
     },
     "go": {
       "iconPath": "../icons/go_dark.svg"
+    },
+    "handlebars": {
+      "iconPath": "../icons/handlebars_dark.svg"
     },
     "html": {
       "iconPath": "../icons/html_dark.svg"
@@ -73,11 +79,17 @@
     "npm": {
       "iconPath": "../icons/npm_dark.svg"
     },
+    "packageJson": {
+      "iconPath": "../icons/packageJson_dark.svg"
+    },
     "php": {
       "iconPath": "../icons/php_dark.svg"
     },
     "pnpm": {
       "iconPath": "../icons/pnpm_dark.svg"
+    },
+    "pnpmLock": {
+      "iconPath": "../icons/pnpmLock_dark.svg"
     },
     "properties": {
       "iconPath": "../icons/properties_dark.svg"
@@ -109,6 +121,9 @@
     "text": {
       "iconPath": "../icons/text_dark.svg"
     },
+    "tsConfig": {
+      "iconPath": "../icons/tsConfig_dark.svg"
+    },
     "tsTest": {
       "iconPath": "../icons/tsTest_dark.svg"
     },
@@ -132,6 +147,9 @@
     },
     "yarn": {
       "iconPath": "../icons/yarn.svg"
+    },
+    "yarnLock": {
+      "iconPath": "../icons/yarnLock_dark.svg"
     }
   },
   "file": "text",
@@ -155,6 +173,7 @@
     "scss": "scss",
     "less": "less",
     "html": "html",
+    "ejs": "ejs",
     "markdown": "markdown",
     "yaml": "yaml",
     "xml": "xml",
@@ -171,18 +190,24 @@
     "svg": "image",
     "sql": "sql",
     "go": "go",
+    "handlebars": "handlebars",
     "php": "php",
     "python": "python",
     "rust": "rust",
     "gitignore": "ignored",
-    "ignore": "ignored"
+    "ignore": "ignored",
+    "tsTest": "tsTest",
+    "tsxTest": "tsxTest",
+    "jsxTest": "jsxTest",
+    "jsTest": "jsTest"
   },
   "fileNames": {
     ".npmrc": "npm",
     ".nvmrc": "nodejs",
     ".babelrc": "json",
     ".gitignore": "ignored",
-    "pnpm-lock.yaml": "pnpm",
+    "package.json": "packageJson",
+    "pnpm-lock.yaml": "pnpmLock",
     "pnpmfile.js": "pnpm",
     "pnpmfile.cjs": "pnpm",
     "pnpmfile.mjs": "pnpm",
@@ -207,15 +232,8 @@
     ".stylelintrc.mjs": "stylelint",
     ".stylelintignore": "stylelint",
     ".prettierrc": "json",
-    "yarn.lock": "yarn",
-    ".test.ts": "tsTest",
-    ".spec.ts": "tsTest",
-    ".test.tsx": "tsxTest",
-    ".spec.tsx": "tsxTest",
-    ".test.jsx": "jsxTest",
-    ".spec.jsx": "jsxTest",
-    ".test.js": "jsTest",
-    ".spec.js": "jsTest"
+    "yarn.lock": "yarnLock",
+    "tsconfig.json": "tsConfig"
   },
   "fileExtensions": {
     "png": "image",
@@ -262,6 +280,14 @@
     "tsx": "tsx",
     "json": "json",
     "babelrc": "json",
-    "map": "sourceMap"
+    "map": "sourceMap",
+    "test.ts": "tsTest",
+    "spec.ts": "tsTest",
+    "test.tsx": "tsxTest",
+    "spec.tsx": "tsxTest",
+    "test.jsx": "jsxTest",
+    "spec.jsx": "jsxTest",
+    "test.js": "jsTest",
+    "spec.js": "jsTest"
   }
 }
